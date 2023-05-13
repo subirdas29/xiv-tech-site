@@ -24,7 +24,7 @@ const Collaborate = () => {
 
        
            </div>
-           <div className='py-16 px-10' > <a href="#"><span className='border border-2 px-12 py-4 border-black hover:bg-black hover:text-white'>Get in touch</span></a></div>
+           <div className='lg:py-16 lg:px-10 py-10 px-16' > <a href="#"><span className='border border-2 px-12 py-4 hover:border-black hover:bg-transparent hover:text-black bg-black text-white'>Get in touch</span></a></div>
         </div>
     );
 };
