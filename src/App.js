@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Collaborate from './components/Collaborate';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div >
+     <Collaborate></Collaborate>
     </div>
   );
 }
