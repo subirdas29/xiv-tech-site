@@ -7,7 +7,8 @@ const AllCollaborate = ({detail}) => {
            <div className='text-left pr-[20%]'>
            <h1 className='font-light text-5xl'>{title}</h1>
             <p className='pt-11 pb-24 font-medium text-xl'>{description}</p>
-            <p className='mb-4 text-xl '>{link}</p>
+            <p className='mb-4 text-xl font-light '>{link}</p>
+            
            </div>
            <div>
            <img className='w-[88%] h-full px-4' src={image} alt="" />

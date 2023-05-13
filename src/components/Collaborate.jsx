@@ -14,7 +14,7 @@ const Collaborate = () => {
     },[])
     return (
         <div>
-            <h1 className='text-2xl font-bold p-6 font-serif'>Let's Collaborate</h1>
+            <h1 className='text-2xl font-bold px-16 py-10 font-serif'>Let's Collaborate</h1>
            <div className='py-16 px-10'>
            {
                 
