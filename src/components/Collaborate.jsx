@@ -14,12 +14,14 @@ const Collaborate = () => {
     },[])
     return (
         <div>
-            <h1 className='text-2xl font-bold p-6'>Let's Collaborate</h1>
-            {
+            <h1 className='text-2xl font-bold p-6 font-serif'>Let's Collaborate</h1>
+           <div className='py-16 px-10'>
+           {
                 
-                    details?.map(detail => <AllCollaborate key={detail.id} detail={detail}></AllCollaborate>)
-                
-            }
+                details?.map(detail => <AllCollaborate key={detail.id} detail={detail}></AllCollaborate>)
+            
+        }
+           </div>
         </div>
     );
 };
