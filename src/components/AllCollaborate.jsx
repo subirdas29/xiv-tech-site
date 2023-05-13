@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const AllCollaborate = ({detail}) => {
     const {title,description,link,image} = detail
@@ -12,8 +13,8 @@ const AllCollaborate = ({detail}) => {
            </div>
             <p className='lg:pt-11 lg:pb-24 pt-8 pb-4 font-medium text-xl'>{description}</p>
            
-          <div className='flex items-center'>
-          <p className='text-xl font-light'>{link}</p> <FaArrowRight className='ml-4'></FaArrowRight>
+          <div className='flex items-center text-cyan-700 lg:text-black hover:text-slate-600'>
+         <a href='#'> <p className='text-xl font-light'>{link}</p></a> <a href='#'><FaArrowRight className='ml-4'></FaArrowRight></a>
           </div>
             
             
